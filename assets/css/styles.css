@@ -14,7 +14,8 @@ body {
 
 /* Headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -31,7 +32,8 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -40,6 +42,7 @@ li {
     list-style: none;
     margin-right: 30px;
 }
+
 #menu a {
     text-decoration: none;
     color: inherit;
@@ -59,6 +62,12 @@ li {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: #fff;
+
 }
 
 #hero-image {
@@ -71,8 +80,6 @@ li {
 
 }
 
-
-
 /* hero animation */
 
 @keyframes hero-zoom {
@@ -81,6 +88,21 @@ li {
     }
 
     to {
-        transform: scale(1.1);    
+        transform: scale(1.1);
     }
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 300px;
+    height: 200px;
+    padding-top: 40px;
+    padding-top: 10px;
+    background-color:  rgba(241, 109, 107, 0.7);
+    position: absolute;
+    bottom: 30px;
+    right: 150px;
 }
