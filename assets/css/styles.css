@@ -25,6 +25,7 @@ h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 #menu {
@@ -105,4 +106,32 @@ li {
     position: absolute;
     bottom: 30px;
     right: 150px;
+}
+
+/* club section */
+
+#club-ethos {
+    height: 600px;
+
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: silver;
+}
+
+#mid-about {
+    width: 33%;
+    margin: 0 auto;
+    float: left;
+    background-color: green;
 }
