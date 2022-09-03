@@ -66,7 +66,8 @@ li {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #fff;
 
 }
@@ -102,7 +103,7 @@ li {
     height: 200px;
     padding-top: 40px;
     padding-top: 10px;
-    background-color:  rgba(241, 109, 107, 0.7);
+    background-color: rgba(241, 109, 107, 0.7);
     position: absolute;
     bottom: 30px;
     right: 150px;
@@ -119,18 +120,31 @@ li {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
+
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: silver;
+
 }
 
 #mid-about {
     width: 33%;
     margin: 0 auto;
-    background-color: green;
+
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
